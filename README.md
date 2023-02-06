@@ -16,7 +16,7 @@ To use the Assistant Slack Bot, the following environment variables need to be s
 - OPENAI_API_TOKEN Token for openai
 
 
-Implementation Details
-The implementation of the  Slack Bot uses the Slack Bolt library for handling Slack events and the langchain library for generating responses using OpenAI's language model. The langchain library also provides a ConversationalBufferWindowMemory that stores conversations in a conversation memory
-
-The chatgpt_chain is an instance of the LLMChain class, which generates responses using OpenAI's language model with a temperature of 0 for factual output. The prompt for the chain is specified using the PromptTemplate class, which defines the format for the input and output of the model. 
+## Packages to Install 
+pip install openai
+pip install slack-bolt
+pip install langchain
